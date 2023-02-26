@@ -1,4 +1,4 @@
-# Project Login-Register Datamoon
+# Project Calculator
 
 _Created by Rachmat Ghaly_
 
