@@ -44,7 +44,7 @@
   position: relative;
   top: auto;
   height: 50px;
-  font-family: hack;
+  font-family: sans-serif;
   font-size: 24px;
   text-align: end;
 }
@@ -58,7 +58,7 @@
   position: relative;
   top: auto;
   height: 40px;
-  font-family: hack;
+  font-family: sans-serif;
   font-size: 18px;
   text-align: end;
 }
@@ -74,7 +74,7 @@
 .button {
   height: 80px;
   border: 3px solid gray;
-  font-family: hack;
+  font-family: sans-serif;
   font-size: 24px;
   font-weight: 600;
 }
