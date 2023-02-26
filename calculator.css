@@ -1,0 +1,99 @@
+/* Code by Rachmat Ghaly */
+.box {
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  border-radius: 8px;
+  height: 440pt;
+  width: 340pt;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxInside {
+  border-radius: 8px;
+  position: relative;
+  height: 430pt;
+  width: 330pt;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.credit {
+  margin: 0%;
+  padding: 10px 0 8px 5px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.boxDisplay {
+  border: 3px solid grey;
+}
+
+.calcDisplay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 3px solid grey; */
+  padding: 0 10px 10px 10px;
+  position: relative;
+  top: auto;
+  height: 50px;
+  font-family: hack;
+  font-size: 24px;
+  text-align: end;
+}
+
+.equalDisplay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 3px solid grey; */
+  padding: 0 10px 0 10px;
+  position: relative;
+  top: auto;
+  height: 40px;
+  font-family: hack;
+  font-size: 18px;
+  text-align: end;
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  position: relative;
+  top: auto;
+}
+
+.button {
+  height: 80px;
+  border: 3px solid gray;
+  font-family: hack;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+#zero {
+  grid-column: span 2;
+}
+
+#equal {
+  height: auto;
+  grid-row: span 2;
+  background-color: orange;
+}
+
+#equal:hover {
+  background-color: rgb(207, 135, 0);
+}
