@@ -8,6 +8,8 @@ I made the HTML and CSS style from scratch. So, The Feature will be made like th
 
 ## Prototype Preview
 
+I've deployed it to netlify, let's click here for more: https://ghalyproject-calculator.netlify.app/
+
 ![Preview Prototype](./assets/img/preview.png)
 
 I've more understand about DOM and then let's go to the Next Level.
